@@ -1,0 +1,23 @@
+---
+title: 'Extensive use of development features such as SASS, Twig and YAML'
+author:
+    username: admin
+    alias: RocketTheme
+date: '2016-01-01 00:00:01'
+published: true
+publish_date: '2015-05-28 14:31:42'
+taxonomy:
+    category: 'Blog'
+process:
+    markdown: true
+    twig: true
+visible: false    
+---
+
+<p><img src="{{ url('gantry-media://rocketlauncher/pages/about-us/mainbar/img-02.jpg') }}" alt="Sample Blog"></p>
+
+<p>Cuaqum ante augue, iaculis eget fringilla vel, gravida non nibh. Nullam dignissim, felis eu imperdiet feugiat, libero ipsum gravida arcu, eu fermentum elit metus vel mauris.</p>
+
+<p>In sed nunc tincidunt, faucibus quam vel, finibus arcu. Proin nec euismod nisi, id tristique augue. Nam in erat est. Dliquam ante augue, iaculis eget fringilla vel, gravida non nibh.</p>
+
+<p>Proin nec euismod nisi, id tristique augue. Nam in erat est. Nullam dignissim, felis eu imperdiet feugiat, libero ipsum gravida arcu, eu fermentum elit metus vel mauris.</p>

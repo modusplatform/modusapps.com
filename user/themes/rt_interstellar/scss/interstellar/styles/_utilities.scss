@@ -1,0 +1,98 @@
+.flush,
+.g-flushed {
+    > .g-container,
+    > .g-content {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+.g-container-flushed {
+    margin: -4rem 0;
+}
+
+// no(margin/padding)(left/right/top/bottom)
+// (margin/padding)(2x/3x)
+$css_properties: "margin", "padding";
+$css_directions: "left", "right", "top", "bottom", "all";
+$css_multipliers: 2, 3;
+@each $prop in $css_properties {
+    @each $dir in $css_directions {
+        .no#{$prop}#{$dir} {
+            &, > .g-content {
+                @if ($dir != "all") {
+                    #{$prop}-#{$dir}: 0;
+                } @else {
+                    #{$prop}: 0;
+                }
+            }
+        }
+    }
+    @each $multi in $css_multipliers {
+        .#{$prop}#{$multi}x {
+            > .g-content {
+                @if ($prop == "padding") {
+                    #{$prop}: $content-padding * $multi;
+                } @else if ($prop == "margin") {
+                    #{$prop}: $content-margin * $multi;
+                }
+            }
+        }
+    }
+}
+
+.center-block {
+    text-align: center;
+    margin: auto;
+}
+
+.g-center-vertical {
+    @include display(flex);
+    @include align-items(center);
+}
+
+.g-linethrough {
+    text-decoration: line-through;
+    opacity: 0.55;
+}
+
+.noliststyle {
+    list-style: none;
+}
+
+.g-bold {
+    font-weight: $font-weight-bold;
+}
+
+.g-uppercase {
+    text-transform: uppercase;
+}
+
+.g-compact {
+    .g-container {
+        padding: 0 !important;
+    }
+}
+
+.g-sidebar-offset {
+    margin-top: -4rem;
+}
+
+.g-sample-sitemap {
+    line-height: $core-line-height + 0.2;
+    font-size: $core-font-size + 0.1;
+    font-family: $font-family-promo;
+}
+
+.g-mobile-center-compact {
+    @include breakpoint(mobile-only) {
+        .g-container {
+            padding: $content-padding 0;
+        }
+        .g-content {
+            padding: 0 $content-padding;
+            margin: $content-margin/2 $content-margin;
+            text-align: center !important;
+        }
+    }
+}

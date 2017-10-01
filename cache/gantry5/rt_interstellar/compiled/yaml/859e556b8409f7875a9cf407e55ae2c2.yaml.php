@@ -1,0 +1,80 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => '/usr/share/nginx/html/user/data/gantry5/themes/rt_interstellar/config/home_-_particles/index.yaml',
+    'modified' => 1506823299,
+    'data' => [
+        'name' => 'home_-_particles',
+        'timestamp' => 1506823299,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => 'home_-_particles',
+            'timestamp' => 1459770626
+        ],
+        'positions' => [
+            
+        ],
+        'sections' => [
+            'top' => 'Top',
+            'navigation' => 'Navigation',
+            'slideshow' => 'Slideshow',
+            'above' => 'Above',
+            'showcase' => 'Showcase',
+            'utility' => 'Utility',
+            'feature' => 'Feature',
+            'expanded' => 'Expanded',
+            'extension' => 'Extension',
+            'bottom' => 'Bottom',
+            'copyright' => 'Copyright',
+            'header' => 'Header',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'messages' => [
+                'system-messages-9828' => 'System Messages'
+            ],
+            'logo' => [
+                'logo-5992' => 'Logo'
+            ],
+            'social' => [
+                'social-7220' => 'Social'
+            ],
+            'menu' => [
+                'menu-4196' => 'Menu'
+            ],
+            'custom' => [
+                'custom-1413' => 'FP Promo Title',
+                'custom-2069' => 'FP Promo Desc',
+                'custom-3240' => 'Quick Menu'
+            ],
+            'owlcarousel' => [
+                'owlcarousel-7547' => 'FP Slideshow Services'
+            ],
+            'spacer' => [
+                'spacer-5973' => 'Spacer'
+            ],
+            'simplecontent' => [
+                'simplecontent-6554' => 'FP Above Our Office',
+                'simplecontent-7857' => 'FP Above Contact Info',
+                'simplecontent-4035' => 'FP Extension Article'
+            ],
+            'blockcontent' => [
+                'blockcontent-9605' => 'FP Extension Team'
+            ],
+            'newsletter' => [
+                'newsletter-1075' => 'Slack'
+            ],
+            'copyright' => [
+                'copyright-5748' => 'Copyright'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-7951' => 'Mobile Menu'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

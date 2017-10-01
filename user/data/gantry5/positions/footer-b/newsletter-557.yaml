@@ -1,0 +1,36 @@
+type: particle
+title: 'FP Footer Newsletter'
+chrome:
+  display_title: false
+  class: ''
+options:
+  type: newsletter
+  title: Newsletter
+  attributes:
+    enabled: '1'
+    class: ''
+    width: g-newsletter-fullwidth
+    layout: g-newsletter-stack-compact
+    style: g-newsletter-square
+    title: ''
+    headtext: 'Let''s stay in touch. Subscribe to our newsletter to get the weekly updates.'
+    sidetext: ''
+    inputboxtext: 'Your email address'
+    buttonicon: 'fa fa-chevron-circle-right'
+    buttontext: ''
+    uri: ''
+    buttonclass: ''
+assignments:
+  page: true
+joomla:
+  published: true
+  params:
+    moduleclass_sfx: ''
+    cache: '0'
+    cache_time: '900'
+    cachemode: static
+    module_tag: div
+    bootstrap_size: '0'
+    header_tag: h3
+    header_class: ''
+    style: '0'

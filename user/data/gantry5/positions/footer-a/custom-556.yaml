@@ -1,0 +1,25 @@
+type: particle
+title: 'FP Footer Quick Menu'
+chrome:
+  display_title: false
+  class: ''
+options:
+  type: custom
+  title: 'Custom HTML'
+  attributes:
+    enabled: '1'
+    html: "<div class=\"g-grid g-sample-sitemap\">\n<div class=\"g-block\">\n<ul class=\"nomarginall noliststyle\">\n<li><a href=\"#\">About</a></li>\n<li><a href=\"#\">Our Blog</a></li>\n<li><a href=\"#\">Our Team</li>\n<li><a href=\"#\">We're hiring!</a></li>\n</ul>\n</div>\n<div class=\"g-block\">\n<ul class=\"nomarginall noliststyle\">\n<li><a href=\"#\">FAQ</a></li>\n<li><a href=\"#\">Support</a></li>\n<li><a href=\"#\">Showcase</li>\n<li><a href=\"#\">Contact Us</a></li>\n</ul>\n</div>\n<div class=\"g-block\">\n<ul class=\"nomarginall noliststyle\">\n<li><a href=\"#\">Tumblr</a></li>\n<li><a href=\"#\">Facebook</a></li>\n<li><a href=\"#\">Twitter</li>\n<li><a href=\"#\">Pinterest</a></li>\n</ul>\n</div>\n</div>"
+assignments:
+  page: true
+joomla:
+  published: true
+  params:
+    moduleclass_sfx: ''
+    cache: '0'
+    cache_time: '900'
+    cachemode: static
+    module_tag: div
+    bootstrap_size: '0'
+    header_tag: h3
+    header_class: ''
+    style: '0'

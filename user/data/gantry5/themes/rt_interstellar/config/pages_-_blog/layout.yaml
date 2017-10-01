@@ -1,0 +1,179 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1459867260
+layout:
+  /top/:
+    -
+      - system-messages-9828
+  /navigation/:
+    -
+      - 'logo-5992 17'
+      - 'social-7220 13'
+      - 'menu-4196 70'
+  /header/: {  }
+  /slideshow/:
+    -
+      - simplecontent-2099
+  /above/: {  }
+  /showcase/: {  }
+  /utility/: {  }
+  /feature/: {  }
+  /container-4448/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-8538
+      -
+        'mainbar 60':
+          -
+            - system-content-1120
+      -
+        'aside 20':
+          -
+            - position-position-8807
+  /expanded/: {  }
+  /extension/: {  }
+  /bottom/: {  }
+  /footer/:
+    -
+      - 'position-position-1781 60'
+      - 'position-position-6502 40'
+  /copyright/:
+    -
+      - copyright-5748
+  offcanvas:
+    -
+      - mobile-menu-7951
+structure:
+  top:
+    type: section
+    attributes:
+      boxed: '0'
+  navigation:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  header:
+    attributes:
+      boxed: '0'
+      class: ''
+  slideshow:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  utility:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  feature:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  sidebar:
+    type: section
+    block:
+      class: equal-height
+  mainbar:
+    type: section
+    block:
+      class: equal-height
+  aside:
+    block:
+      class: equal-height
+  container-4448:
+    attributes:
+      boxed: '0'
+      class: ''
+      extra: {  }
+  expanded:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  extension:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  footer:
+    attributes:
+      boxed: '0'
+      class: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: '0'
+      class: g-mobile-center-compact
+content:
+  logo-5992:
+  social-7220:
+    attributes:
+      css:
+        class: ''
+    block:
+      class: null
+      variations: align-left
+  menu-4196:
+    block:
+      variations: align-right
+  simplecontent-2099:
+    title: 'Header - Blog'
+    attributes:
+      items:
+        -
+          layout: header
+          created_date: ''
+          content_title: Blog
+          author: ''
+          leading_content: 'Read the Latest News'
+          main_content: ''
+          readmore_label: ''
+          readmore_link: ''
+          readmore_class: ''
+          readmore_target: _self
+          title: Blog
+    block:
+      variations: center
+  position-position-8538:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  position-position-8807:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-1781:
+    title: 'Footer A'
+    attributes:
+      key: footer-a
+  position-position-6502:
+    title: 'Footer B'
+    attributes:
+      key: footer-b
+  copyright-5748:
+    block:
+      class: g-copyright
+  mobile-menu-7951:
+    title: 'Mobile Menu'
